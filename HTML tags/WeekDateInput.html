@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChiPi Technologies - Weekly Task Planner</title>
+</head>
+<body>
+
+<h2>ChiPi Technologies - Weekly Task Planner</h2>
+
+<form>
+
+    <!-- 1. Select Any Week -->
+    <p>
+        <strong>1. Select Any Week:</strong><br>
+        <input type="week">
+    </p>
+
+    <!-- 2. Pre-filled Week -->
+    <p>
+        <strong>2. Pre-filled (e.g., 2025-W12):</strong><br>
+        <input 
+            type="week"
+            value="2025-W12"
+        >
+    </p>
+
+    <!-- 3. Week Range Restriction -->
+    <p>
+        <strong>3. Week Between 2024-W01 and 2025-W26:</strong><br>
+        <input 
+            type="week"
+            min="2024-W01"
+            max="2025-W26"
+        >
+    </p>
+
+    <!-- 4. Required Week -->
+    <p>
+        <strong>4. Required Week Field:</strong><br>
+        <input 
+            type="week"
+            required
+        >
+    </p>
+
+    <!-- 5. Read-only Week -->
+    <p>
+        <strong>5. Read-Only Week (Fixed):</strong><br>
+        <input 
+            type="week"
+            value="2024-W02"
+            readonly
+        >
+    </p>
+
+    <!-- 6. Disabled Week -->
+    <p>
+        <strong>6. Disabled Week Field:</strong><br>
+        <input 
+            type="week"
+            value="2023-W40"
+            disabled
+        >
+    </p>
+
+    <br>
+
+    <button type="submit">Submit Form</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+
+<hr>
+<p>© 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOB Input Examples</title>
+</head>
+<body>
+
+<h2>Date of Birth Examples</h2>
+
+<form>
+
+    <!-- 1. Basic DOB -->
+    <p>
+        <strong>1. Basic DOB Input:</strong><br>
+        <input type="date">
+    </p>
+
+    <!-- 2. DOB with Age Restriction (18–40 years) -->
+    <p>
+        <strong>2. DOB with Age Restriction (18–40 years):</strong><br>
+        <input 
+            type="date"
+            min="1985-01-01"
+            max="2007-12-31"
+        >
+    </p>
+
+    <!-- 3. DOB with Default Value -->
+    <p>
+        <strong>3. DOB with Default Value:</strong><br>
+        <input 
+            type="date"
+            value="2001-01-01"
+        >
+    </p>
+
+    <!-- 4. Required DOB -->
+    <p>
+        <strong>4. Required DOB (Mandatory Field):</strong><br>
+        <input 
+            type="date"
+            required
+        >
+    </p>
+
+    <!-- 5. Read-Only DOB -->
+    <p>
+        <strong>5. Read-Only DOB (View Only):</strong><br>
+        <input 
+            type="date"
+            value="1998-05-15"
+            readonly
+        >
+    </p>
+
+    <!-- 6. Disabled DOB -->
+    <p>
+        <strong>6. Disabled DOB (Not Editable):</strong><br>
+        <input 
+            type="date"
+            value="1995-01-12"
+            disabled
+        >
+    </p>
+
+    <br>
+
+    <button type="submit">Submit Form</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+
+<hr>
+<p>© 2025 ChipT Technologies. All rights reserved.</p>
+
+</body>
+</html>
