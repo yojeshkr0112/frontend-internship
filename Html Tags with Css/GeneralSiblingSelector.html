@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        .special~p {
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Title</h2>
+
+    <p>This paragraph is before the special one.</p>
+
+    <p class="special">Special paragraph</p>
+
+    <p>First sibling paragraph</p>
+    <p>Second sibling paragraph</p>
+
+    <div>Another element</div>
+
+    <p>Third sibling paragraph</p>
+
+</body>
+
+</html>

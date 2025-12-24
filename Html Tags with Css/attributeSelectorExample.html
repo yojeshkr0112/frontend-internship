@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector example</title>
+    <style>
+        input[type="password"] {
+            border: 2px solid red;
+        }
+
+        a[href^="https"] {
+            color: green;
+        }
+
+        a[href$=".com"] {
+            font-weight: bold;
+            color: aqua;
+        }
+        input[type="password"]{
+            color: brown;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="https://google.tk">Google</a>
+    <a href="https://facebook.com">Facebook</a>
+    <a href="http://example.org">Example</a>
+
+    <input type="text" value="username">
+    <input type="password" value="secret123">
+
+</body>
+
+</html>
